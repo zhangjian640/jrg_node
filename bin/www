@@ -41,7 +41,7 @@ const server = http.createServer(app);
 
 let port = normalizePort (process.env.PORT || '3000');
 app.set('port', port);
-
+console.log(`server running at ${port}`);
 
 /**
  * Listen on provided port, on all network interfaces.
